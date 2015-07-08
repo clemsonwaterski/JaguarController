@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start ROS Core Service"
+        android:id="@+id/stop_button"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:onClick="onClickStopButton" />
+
+</RelativeLayout>
+<!-- From: file:/home/dale/android2/src/android_core/JaguarController/android_gingerbread_mr1/src/main/res/layout/controller.xml -->

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mil.navy.spawar.adapt.jaguarcontroller.Controller" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"/>
+
+</menu>
+<!-- From: file:/home/dale/android2/src/android_core/JaguarController/android_gingerbread_mr1/src/main/res/menu/controller.xml -->

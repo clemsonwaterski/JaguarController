@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="padded">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <string name="action_settings">Settings</string>
+    <string name="mapView">Map View</string>
+    <string name="lidarData">LIDAR Data</string>
+    <string name="messageTraffic">Message Traffic</string>
+    <string name="controller">Controller</string>
+    <string name="title_activity_controller">Controller</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_ros">RosActivity</string>
+</resources>
