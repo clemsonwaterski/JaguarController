@@ -75,7 +75,7 @@ public class MainActivity<T> extends RosActivity {
         location = (TextView)findViewById(R.id.location);
         touchable = (ImageView)findViewById(R.id.touchable);
         touchable.setOnTouchListener(MyOnTouchListener);
-        maxPower=565;
+        maxPower=1000;
 
 
     }
@@ -113,19 +113,25 @@ public class MainActivity<T> extends RosActivity {
                 talker.publishMessage("MMW !M 0 0");
             }
             else {
-                maxRadius = (float) Math.sqrt(Math.pow(view.getWidth() / 2, 2) + Math.pow(view.getWidth() / 2, 2));
-                x = (event.getX() - view.getWidth() / 2) / maxRadius;
-                y = -(event.getY() - view.getHeight() / 2) / maxRadius;
+               // maxRadius = (float) Math.sqrt(Math.pow(view.getWidth() / 2, 2) + Math.pow(view.getWidth() / 2, 2));
+                x = (event.getX() - view.getWidth() / 2) / view.getWidth();
+                y = -(event.getY() - view.getHeight() / 2) / view.getHeight();
 
                 theta = (float) ((((float) Math.atan2(y, -x) * 180 / Math.PI) + 180) + 90) % 360 * (float) Math.PI / 180;
-                radius = (float) Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
+                radius = (float) Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2))*2;
 
-                location.setText("Coordinates: (" + radius + ", " + theta + ")");
+                location.setText("Coordinates: (" + radius + ", " + theta*180/Math.PI + ")");
 
                 //get Jaguar commands
 
-                jaguarX = (int) ((int) maxPower * Math.cos(theta - 45) * radius);
-                jaguarY = (int) ((int) maxPower * Math.sin(theta - 45) * radius);
+                if(theta>90 && theta<270)
+                    theta=90+(270-theta);
+
+                if(radius>1)
+                    radius=1;
+
+                jaguarX = (int) ((int) maxPower * Math.cos(theta - 45*Math.PI/180) * radius);
+                jaguarY = (int) ((int) maxPower * Math.sin(theta - 45*Math.PI/180) * radius);
 
                 //location.setText("Coordinates: ("+jaguarX+", "+jaguarY+")");
 
