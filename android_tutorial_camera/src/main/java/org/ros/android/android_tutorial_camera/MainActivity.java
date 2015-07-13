@@ -36,6 +36,7 @@ import org.ros.android.RosActivity;
 import org.ros.android.view.RosTextView;
 import org.ros.android.view.camera.RosCameraPreviewView;
 import org.ros.node.NodeConfiguration;
+import android.widget.ImageView;
 import org.ros.node.NodeMainExecutor;
 
 import org.ros.node.topic.Subscriber;
@@ -48,17 +49,17 @@ import java.net.URI;
  */
 public class MainActivity<T> extends RosActivity {
 
-    private RosTextView rosTextView;
-    private SeekBar seekBar;
-    private TextView powerText;
-    private double progress = 0;
-    private PowerManager.WakeLock wakeLock;
-    private WifiManager.WifiLock wifiLock;
-    private RosCore rosCore;
-    private URI masterUri;
-    private final String TAG = "Controller";
+    TextView location;
+    ImageView touchable;
+    float x;
+    float y;
+    float maxRadius;
+    int jaguarX;
+    int jaguarY;
+    float theta;
+    float radius;
+    float maxPower;
 
-    private RosTextView<std_msgs.String> rosTextView2;
     private Talker talker;
     private Listener listener;
 
@@ -70,31 +71,13 @@ public class MainActivity<T> extends RosActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.main);
+        setContentView(R.layout.activity_main);
+        location = (TextView)findViewById(R.id.location);
+        touchable = (ImageView)findViewById(R.id.touchable);
+        touchable.setOnTouchListener(MyOnTouchListener);
+        maxPower=565;
 
-        seekBar = (SeekBar) findViewById(org.ros.android.android_tutorial_camera.R.id.seekBar);
-        powerText = (TextView) findViewById(org.ros.android.android_tutorial_camera.R.id.textView);
 
-        seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-
-            @Override
-            public void onProgressChanged(SeekBar seekBar, int progressValue, boolean fromUser) {
-                progress = (progressValue - 10) / 10.0;
-            }
-
-            @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-            }
-
-            @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-                powerText.setText(Double.toString(progress));
-            }
-        });
-
-        rosTextView = (RosTextView) findViewById(R.id.ros_text_view);
     }
 
     /*
@@ -122,6 +105,41 @@ public class MainActivity<T> extends RosActivity {
     }
     */
 
+    View.OnTouchListener MyOnTouchListener = new View.OnTouchListener(){
+
+        @Override
+        public boolean onTouch(View view, MotionEvent event) {
+            if(event.getAction() == MotionEvent.ACTION_UP) {
+                talker.publishMessage("MMW !M 0 0");
+            }
+            else {
+                maxRadius = (float) Math.sqrt(Math.pow(view.getWidth() / 2, 2) + Math.pow(view.getWidth() / 2, 2));
+                x = (event.getX() - view.getWidth() / 2) / maxRadius;
+                y = -(event.getY() - view.getHeight() / 2) / maxRadius;
+
+                theta = (float) ((((float) Math.atan2(y, -x) * 180 / Math.PI) + 180) + 90) % 360 * (float) Math.PI / 180;
+                radius = (float) Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
+
+                location.setText("Coordinates: (" + radius + ", " + theta + ")");
+
+                //get Jaguar commands
+
+                jaguarX = (int) ((int) maxPower * Math.cos(theta - 45) * radius);
+                jaguarY = (int) ((int) maxPower * Math.sin(theta - 45) * radius);
+
+                //location.setText("Coordinates: ("+jaguarX+", "+jaguarY+")");
+
+                talker.publishMessage("MMW !M " + jaguarX + " " + jaguarY);
+            }
+
+
+            return true;
+        }
+
+
+
+    };
+/*
     public void onClickUpButton(View v) throws InterruptedException {
         Log.d("TEST", "Up: " + Double.toString(progress));
         double x = progress * 1000;
@@ -161,11 +179,12 @@ public class MainActivity<T> extends RosActivity {
         Thread.sleep(1000);
         talker.publishMessage("MMW !M 0 0");
     }
-
+    */
     public void onClickStopButton(View v){
         Log.d("TEST", "EMERGENCY STOP ALL");
         talker.publishMessage("MMW !MG");
     }
+
 
     @Override
     protected void init(NodeMainExecutor nodeMainExecutor) {
@@ -174,7 +193,7 @@ public class MainActivity<T> extends RosActivity {
         NodeConfiguration nodeConfiguration =
                 NodeConfiguration.newPublic(InetAddressFactory.newNonLoopback().getHostAddress());
         nodeConfiguration.setMasterUri(getMasterUri());
-        nodeMainExecutor.execute(rosTextView, nodeConfiguration);
+        //nodeMainExecutor.execute(rosTextView, nodeConfiguration);
         nodeMainExecutor.execute(listener, nodeConfiguration);
         nodeMainExecutor.execute(talker, nodeConfiguration);
     }

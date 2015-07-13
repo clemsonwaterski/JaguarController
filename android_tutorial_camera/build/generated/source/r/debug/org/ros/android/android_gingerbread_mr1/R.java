@@ -12,22 +12,22 @@ public final class R {
 	}
 	public static final class id {
 		public static final int LinearLayout1 = 0x7f070000;
-		public static final int action_settings = 0x7f070011;
-		public static final int advanced_checkBox = 0x7f07000d;
-		public static final int master_chooser_cancel = 0x7f070010;
-		public static final int master_chooser_new_master_button = 0x7f07000e;
-		public static final int master_chooser_new_private_master_button = 0x7f07000f;
-		public static final int master_chooser_ok = 0x7f07000c;
-		public static final int master_chooser_qr_code_button = 0x7f07000b;
-		public static final int master_chooser_uri = 0x7f07000a;
-		public static final int stop_button = 0x7f070001;
-		public static final int textView = 0x7f070008;
+		public static final int action_settings = 0x7f070013;
+		public static final int advanced_checkBox = 0x7f07000f;
+		public static final int master_chooser_cancel = 0x7f070012;
+		public static final int master_chooser_new_master_button = 0x7f070010;
+		public static final int master_chooser_new_private_master_button = 0x7f070011;
+		public static final int master_chooser_ok = 0x7f07000e;
+		public static final int master_chooser_qr_code_button = 0x7f07000d;
+		public static final int master_chooser_uri = 0x7f07000c;
+		public static final int stop_button = 0x7f070002;
+		public static final int textView = 0x7f07000a;
 	}
 	public static final class layout {
 		public static final int activity_jaguar_menu = 0x7f030000;
-		public static final int controller = 0x7f030001;
-		public static final int master_chooser = 0x7f030003;
-		public static final int ros_activity = 0x7f030004;
+		public static final int controller = 0x7f030002;
+		public static final int master_chooser = 0x7f030004;
+		public static final int ros_activity = 0x7f030005;
 	}
 	public static final class menu {
 		public static final int controller = 0x7f060000;
