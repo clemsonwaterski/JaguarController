@@ -2,207 +2,200 @@
 <items version="2" >
 
     <item
-        jar="/home/dale/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_bootstrap/gradle_plugins/0.2.1/33c05915db7ef72ac3978d33b16abd1b4b06fec9/gradle_plugins-0.2.1.jar"
+        jar="/home/dale/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.httpclient/3.1.0/c493a925a091ac3d8f449d9265fe12482dabb2a7/com.springsource.org.apache.commons.httpclient-3.1.0.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="33c05915db7ef72ac3978d33b16abd1b4b06fec9">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/gradle_plugins-0.2.1-24f8c2110f71e4853fae7d0b5579f8908871b2d6.jar" />
-    </item>
-    <item
-        jar="/home/dale/.gradle/caches/modules-2/files-2.1/org.apache.ws.commons/ws-commons-util/1.0.1/126e80ff798fece634bc94e61f8be8a8da00be60/ws-commons-util-1.0.1.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="126e80ff798fece634bc94e61f8be8a8da00be60">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/ws-commons-util-1.0.1-7f73e3c19a50ae3252dae75fae2057feade94929.jar" />
-    </item>
-    <item
-        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_core/apache_xmlrpc_server/0.1.6/apache_xmlrpc_server-0.1.6.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="6c4bc94f714199e3d8ebd9e975a7c8528d1c6f09">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/apache_xmlrpc_server-0.1.6-f9071debb096750784afba41c048d2eddb02ba50.jar" />
-    </item>
-    <item
-        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_core/apache_xmlrpc_client/0.1.6/apache_xmlrpc_client-0.1.6.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="4623318535170235e4d0627817e960a1d2ad1675">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/apache_xmlrpc_client-0.1.6-93632873b613c81eadfbfc8ff3eebacf0af55d57.jar" />
-    </item>
-    <item
-        jar="/home/dale/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.net/2.0.0/3e78766072ff5a5cf3f5431d973c430c94ec612/com.springsource.org.apache.commons.net-2.0.0.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="03e78766072ff5a5cf3f5431d973c430c94ec612">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.net-2.0.0-20d5d7aad865caefd8c1b8027dbc7050fc441c8d.jar" />
-    </item>
-    <item
-        jar="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="17e5741321bf4586f995a523b66ca2949de4c0f3">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/classes-6a31ce8aabcaf243bb794e80cd0398e937489953.jar" />
-    </item>
-    <item
-        jar="/home/dale/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.5.2.Final/e6fb74a0699abe108969b2ec1f269391169a0426/netty-3.5.2.Final.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="e6fb74a0699abe108969b2ec1f269391169a0426">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/netty-3.5.2.Final-04e3a266150e7c0372c7715c31f8d9bfe4ab8748.jar" />
-    </item>
-    <item
-        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/rosjava_test_msgs/0.1.27/rosjava_test_msgs-0.1.27.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="726930e42746f392a7397da1500433a189afcd29">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/rosjava_test_msgs-0.1.27-eab988e4457f890c0529216b9a7bfb7eff9c4205.jar" />
-    </item>
-    <item
-        jar="/home/dale/.gradle/caches/modules-2/files-2.1/dnsjava/dnsjava/2.1.1/5708df81cf6dbff545695f0be6380b7bbc85accc/dnsjava-2.1.1.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="5708df81cf6dbff545695f0be6380b7bbc85accc">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/dnsjava-2.1.1-9a14fc9df5bc83c52de11e2e089e9b4c210d6a29.jar" />
-    </item>
-    <item
-        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/std_msgs/0.5.8/std_msgs-0.5.8.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="3087adf9cb86f761eee1b7e57e6d079bc62e0c2f">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/std_msgs-0.5.8-1a86c0693edb7fe9169f87c0dd258364aeb974d6.jar" />
+        sha1="c493a925a091ac3d8f449d9265fe12482dabb2a7">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.httpclient-3.1.0-e473b7aad46d68472841c003495448276b485da7.jar" />
     </item>
     <item
         jar="/home/dale/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.io/1.4.0/51097cd000ec88214ff181c9f059947de1cf4a35/com.springsource.org.apache.commons.io-1.4.0.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="51097cd000ec88214ff181c9f059947de1cf4a35">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.io-1.4.0-da374d4742ed11030850e09d6c0d7359c9fa2f9c.jar" />
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.io-1.4.0-da374d4742ed11030850e09d6c0d7359c9fa2f9c.jar" />
     </item>
     <item
-        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/tf2_msgs/0.4.12/tf2_msgs-0.4.12.jar"
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_core/apache_xmlrpc_server/0.1.6/apache_xmlrpc_server-0.1.6.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="0b61f9afa4d9a577ac90db25365c41ff14ecfa0a">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/tf2_msgs-0.4.12-c29e70fcdc368d8958ae4b6481bb01907fcef893.jar" />
-    </item>
-    <item
-        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/actionlib_msgs/1.10.6/actionlib_msgs-1.10.6.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="aa14a2c726e47eeb6e5b27a8088e9aeaf0cc4d36">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/actionlib_msgs-1.10.6-e932042de1e4ab55bd9a92bb4b614b7fb28ef317.jar" />
-    </item>
-    <item
-        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_core/apache_xmlrpc_common/0.1.6/apache_xmlrpc_common-0.1.6.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="9f090506ad4315c779c47402e46ee7e78ced2b5b">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/apache_xmlrpc_common-0.1.6-f950d3dee8c4bee46bdf880d852f8093469d7fe6.jar" />
-    </item>
-    <item
-        jar="/home/dale/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/12.0/5bc66dd95b79db1e437eb08adba124a3e4088dc0/guava-12.0.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="5bc66dd95b79db1e437eb08adba124a3e4088dc0">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/guava-12.0-f252fa2aa2394789cad32e2f42b79e9bc31d6a9d.jar" />
-    </item>
-    <item
-        jar="/home/dale/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.httpclient/3.1.0/c493a925a091ac3d8f449d9265fe12482dabb2a7/com.springsource.org.apache.commons.httpclient-3.1.0.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="c493a925a091ac3d8f449d9265fe12482dabb2a7">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.httpclient-3.1.0-e473b7aad46d68472841c003495448276b485da7.jar" />
+        sha1="d953870771d3c77e63ec9577b565126f11d60606">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/apache_xmlrpc_server-0.1.6-f9071debb096750784afba41c048d2eddb02ba50.jar" />
     </item>
     <item
         jar="/home/dale/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.codec/1.3.0/f8690570eb0913d750262bb4223eed30b0d619ed/com.springsource.org.apache.commons.codec-1.3.0.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="f8690570eb0913d750262bb4223eed30b0d619ed">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.codec-1.3.0-2598d31c09c61e3b2e508f95873c7b85647e0849.jar" />
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.codec-1.3.0-2598d31c09c61e3b2e508f95873c7b85647e0849.jar" />
     </item>
     <item
-        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/nav_msgs/1.10.6/nav_msgs-1.10.6.jar"
+        jar="/home/dale/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="2d3c43c8feed84980495b6dd41d74c292ec50419">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/nav_msgs-1.10.6-f5f9ff8124cb26d380bb7dea12a9e1acabb6236e.jar" />
+        sha1="07e4cde26b53a9a0e3fe5b00d1dbbc7cc1d46060">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/junit-3.8.2-c7d2d0e530cc7a8a873459eec181c1a65cc93fbb.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_core/apache_xmlrpc_client/0.1.6/apache_xmlrpc_client-0.1.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="022cd6afc28acfa63db43eafa0650a565d4c06bf">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/apache_xmlrpc_client-0.1.6-93632873b613c81eadfbfc8ff3eebacf0af55d57.jar" />
     </item>
     <item
         jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/geometry_msgs/1.10.6/geometry_msgs-1.10.6.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="010f1a86be8cfaac7300035da7684b7fc9c107fe">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/geometry_msgs-1.10.6-b087538195ce1152e4bf57c7115d6dc0b29cdc7b.jar" />
+        sha1="2c8e578a22cf916c5bc9cb413c2cb0e07fe3ae5a">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/geometry_msgs-1.10.6-b087538195ce1152e4bf57c7115d6dc0b29cdc7b.jar" />
     </item>
     <item
-        jar="/home/dale/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.2/7e4cde26b53a9a0e3fe5b00d1dbbc7cc1d46060/junit-3.8.2.jar"
+        jar="/home/dale/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.5.2.Final/e6fb74a0699abe108969b2ec1f269391169a0426/netty-3.5.2.Final.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="07e4cde26b53a9a0e3fe5b00d1dbbc7cc1d46060">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/junit-3.8.2-d32b39212d0e3c8e38bb26978b8f91d53545518f.jar" />
-    </item>
-    <item
-        jar="/home/dale/.gradle/caches/modules-2/files-2.1/commons-pool/commons-pool/1.6/4572d589699f09d866a226a14b7f4323c6d8f040/commons-pool-1.6.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="4572d589699f09d866a226a14b7f4323c6d8f040">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/commons-pool-1.6-a4f50f9a62911334779ed3b999c31a71f9e6ac5f.jar" />
+        sha1="e6fb74a0699abe108969b2ec1f269391169a0426">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/netty-3.5.2.Final-04e3a266150e7c0372c7715c31f8d9bfe4ab8748.jar" />
     </item>
     <item
         jar="/opt/ros/hydro/share/maven/org/ros/rosjava_core/rosjava/0.1.6/rosjava-0.1.6.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="e868f6050e5adf8b69d482cae3fb69a89835e708">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/rosjava-0.1.6-906acd8f648f56d91c83d970a898fd3f259e1849.jar" />
+        sha1="002b27b7ef514a54aab7ba38a23ad2f6dd700de1">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/rosjava-0.1.6-906acd8f648f56d91c83d970a898fd3f259e1849.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/nav_msgs/1.10.6/nav_msgs-1.10.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="736b3fd5a24e7b5a80aeaa49856a87abb2326a48">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/nav_msgs-1.10.6-f5f9ff8124cb26d380bb7dea12a9e1acabb6236e.jar" />
     </item>
     <item
         jar="/home/dale/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/jsr305-1.3.9-f596e1e67284484d3c16fa4600e826a5431d0f21.jar" />
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/jsr305-1.3.9-f596e1e67284484d3c16fa4600e826a5431d0f21.jar" />
     </item>
     <item
-        jar="/home/dale/android2/src/android_core/JaguarController/android_tutorial_camera/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/unspecified/jars/classes.jar"
+        jar="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/unspecified/classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="50b44afb7754d1cbaf46e283287600632542a5c5">
-        <dex dex="/home/dale/android2/src/android_core/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/classes-d05347eae4f9d47c89510655baffe1361862ef4b.jar" />
-    </item>
-    <item
-        jar="/home/dale/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/rosgraph_msgs/1.9.50/5bda692b5f32449d109eb8ac74cc77a23ff78dc7/rosgraph_msgs-1.9.50.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="5bda692b5f32449d109eb8ac74cc77a23ff78dc7">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/rosgraph_msgs-1.9.50-c31619b9f8f865ac6f39ca82b51dd3a8f5a3f9ca.jar" />
+        sha1="ada6e6e051d49fa5f9ba32d16550af35c3c2e0c7">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/classes-3631267bce4882e33c2107cf49e6932fa39ee671.jar" />
     </item>
     <item
         jar="/home/dale/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.lang/2.4.0/686e3713650c8e3a5d98723b4d3e239586bf9822/com.springsource.org.apache.commons.lang-2.4.0.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="686e3713650c8e3a5d98723b4d3e239586bf9822">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.lang-2.4.0-fa9ed73a1d9bb40072535517524cfeabd0a84f02.jar" />
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.lang-2.4.0-fa9ed73a1d9bb40072535517524cfeabd0a84f02.jar" />
+    </item>
+    <item
+        jar="/home/dale/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.net/2.0.0/3e78766072ff5a5cf3f5431d973c430c94ec612/com.springsource.org.apache.commons.net-2.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="03e78766072ff5a5cf3f5431d973c430c94ec612">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.net-2.0.0-20d5d7aad865caefd8c1b8027dbc7050fc441c8d.jar" />
+    </item>
+    <item
+        jar="/home/dale/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_bootstrap/gradle_plugins/0.2.1/33c05915db7ef72ac3978d33b16abd1b4b06fec9/gradle_plugins-0.2.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="33c05915db7ef72ac3978d33b16abd1b4b06fec9">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/gradle_plugins-0.2.1-24f8c2110f71e4853fae7d0b5579f8908871b2d6.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/tf2_msgs/0.4.12/tf2_msgs-0.4.12.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="33c86ea89a507af8cacb11c65aa3c49fc59e85d1">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/tf2_msgs-0.4.12-c29e70fcdc368d8958ae4b6481bb01907fcef893.jar" />
+    </item>
+    <item
+        jar="/home/dale/.gradle/caches/modules-2/files-2.1/commons-pool/commons-pool/1.6/4572d589699f09d866a226a14b7f4323c6d8f040/commons-pool-1.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4572d589699f09d866a226a14b7f4323c6d8f040">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/commons-pool-1.6-a4f50f9a62911334779ed3b999c31a71f9e6ac5f.jar" />
     </item>
     <item
         jar="/home/dale/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_bootstrap/message_generation/0.2.1/dc3afb66cd5aa168a71bcb63ba89560b197b9300/message_generation-0.2.1.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="dc3afb66cd5aa168a71bcb63ba89560b197b9300">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/message_generation-0.2.1-c3ce37d78fe54d17877ead73f468ab8b95915872.jar" />
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/message_generation-0.2.1-c3ce37d78fe54d17877ead73f468ab8b95915872.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/rosjava_test_msgs/0.1.27/rosjava_test_msgs-0.1.27.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8c71c3577e1da9940aa0975bc5fef1a6a8c265c3">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/rosjava_test_msgs-0.1.27-eab988e4457f890c0529216b9a7bfb7eff9c4205.jar" />
     </item>
     <item
         jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/sensor_msgs/1.10.6/sensor_msgs-1.10.6.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="2409477966a9f34b2e30246f587902222ad94d90">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/sensor_msgs-1.10.6-e904f11827c01bf8de8313cc15ebc78790e3bd1d.jar" />
+        sha1="410f85e9d9e05fc81e94b550f3dfffa0381e4232">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/sensor_msgs-1.10.6-e904f11827c01bf8de8313cc15ebc78790e3bd1d.jar" />
     </item>
     <item
         jar="/home/dale/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.logging/1.1.1/7657caf2c78e1d79c74d36f2ae128a115f7cc180/com.springsource.org.apache.commons.logging-1.1.1.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="7657caf2c78e1d79c74d36f2ae128a115f7cc180">
-        <dex dex="/home/dale/android2/src/android_core/android_cam/android_tutorial_camera/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.logging-1.1.1-2a05e894e6622737a03d8cf7d21eb680eebe96a6.jar" />
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.logging-1.1.1-2a05e894e6622737a03d8cf7d21eb680eebe96a6.jar" />
+    </item>
+    <item
+        jar="/home/dale/.gradle/caches/modules-2/files-2.1/org.apache.ws.commons/ws-commons-util/1.0.1/126e80ff798fece634bc94e61f8be8a8da00be60/ws-commons-util-1.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="126e80ff798fece634bc94e61f8be8a8da00be60">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/ws-commons-util-1.0.1-7f73e3c19a50ae3252dae75fae2057feade94929.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/std_msgs/0.5.8/std_msgs-0.5.8.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e47089df805c81b2013d9f0b15fe2409f136a052">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/std_msgs-0.5.8-1a86c0693edb7fe9169f87c0dd258364aeb974d6.jar" />
+    </item>
+    <item
+        jar="/home/dale/.gradle/caches/modules-2/files-2.1/dnsjava/dnsjava/2.1.1/5708df81cf6dbff545695f0be6380b7bbc85accc/dnsjava-2.1.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5708df81cf6dbff545695f0be6380b7bbc85accc">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/dnsjava-2.1.1-9a14fc9df5bc83c52de11e2e089e9b4c210d6a29.jar" />
+    </item>
+    <item
+        jar="/home/dale/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/rosgraph_msgs/1.9.50/5bda692b5f32449d109eb8ac74cc77a23ff78dc7/rosgraph_msgs-1.9.50.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5bda692b5f32449d109eb8ac74cc77a23ff78dc7">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/rosgraph_msgs-1.9.50-c31619b9f8f865ac6f39ca82b51dd3a8f5a3f9ca.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/actionlib_msgs/1.10.6/actionlib_msgs-1.10.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8638f66b525c955f8b7066e4d7a1e2c0b9241b9f">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/actionlib_msgs-1.10.6-e932042de1e4ab55bd9a92bb4b614b7fb28ef317.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_core/apache_xmlrpc_common/0.1.6/apache_xmlrpc_common-0.1.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="77961bd05147661028b4f762b6f577bcbc6668ef">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/apache_xmlrpc_common-0.1.6-f950d3dee8c4bee46bdf880d852f8093469d7fe6.jar" />
+    </item>
+    <item
+        jar="/home/dale/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/12.0/5bc66dd95b79db1e437eb08adba124a3e4088dc0/guava-12.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5bc66dd95b79db1e437eb08adba124a3e4088dc0">
+        <dex dex="/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/pre-dexed/debug/guava-12.0-f252fa2aa2394789cad32e2f42b79e9bc31d6a9d.jar" />
     </item>
 
 </items>

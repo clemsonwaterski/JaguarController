@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/dale/android2/src/android_core/JaguarController/android_tutorial_camera/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
-    <!-- From: file:/home/dale/android2/src/android_core/JaguarController/android_tutorial_camera/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/dale/workspace/JaguarController/android_tutorial_camera/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">CameraTutorial</string>
-    <!-- From: file:/home/dale/android2/src/android_core/JaguarController/android_tutorial_camera/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="cancel">Cancel</string>
     <string name="controller">Controller</string>
@@ -18,6 +18,11 @@
     <string name="new_master">New Public Master</string>
     <string name="new_private_master">New Private Master</string>
     <string name="qr_code">Read QRCode</string>
+    <!-- From: file:/home/dale/workspace/JaguarController/android_tutorial_camera/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="remote_service_permission">Remote Service Permission</string>
+    <!-- From: file:/home/dale/workspace/JaguarController/android_tutorial_camera/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/unspecified/res/values/values.xml -->
+    <eat-comment/>
     <string name="show_advanced">Show advanced options</string>
     <string name="title_activity_controller">Controller</string>
     <string name="title_activity_ros">RosActivity</string>

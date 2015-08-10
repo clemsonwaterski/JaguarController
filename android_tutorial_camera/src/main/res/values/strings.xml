@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CameraTutorial</string>
+    <string name="remote_service_permission">Remote Service Permission</string>
 </resources>

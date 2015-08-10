@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/dale/android2/src/android_core/JaguarController/android_gingerbread_mr1/src/main/assets"/></dataSet><dataSet config="release"><source path="/home/dale/android2/src/android_core/JaguarController/android_gingerbread_mr1/src/release/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/dale/workspace/JaguarController/android_gingerbread_mr1/src/main/assets"/></dataSet><dataSet config="release"><source path="/home/dale/workspace/JaguarController/android_gingerbread_mr1/src/release/assets"/></dataSet></merger>

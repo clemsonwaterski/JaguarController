@@ -10,6 +10,6 @@
         android:id="@+id/stop_button"
         android:layout_centerVertical="true"
         android:padding="10dp"
-        android:onClick="onClickStopButton" />
+        android:onClick="onClickStartButton" />
 
 </RelativeLayout>

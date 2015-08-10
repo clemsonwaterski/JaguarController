@@ -10,7 +10,7 @@
         android:id="@+id/stop_button"
         android:layout_centerVertical="true"
         android:padding="10dp"
-        android:onClick="onClickStopButton" />
+        android:onClick="onClickStartButton" />
 
 </RelativeLayout>
-<!-- From: file:/home/dale/android2/src/android_core/JaguarController/android_gingerbread_mr1/src/main/res/layout/controller.xml -->
+<!-- From: file:/home/dale/workspace/JaguarController/android_gingerbread_mr1/src/main/res/layout/controller.xml -->

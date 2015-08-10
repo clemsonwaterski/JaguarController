@@ -43,6 +43,7 @@ public class Controller extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.controller);
+        Log.d("ROS", "ROS Controller onCreate");
         try {
             masterUri = new URI("http://localhost:11311/");
         }
@@ -176,7 +177,15 @@ public class Controller extends Activity {
         masterUri = uri;
     }
 
-    public void onClickStopButton(View v){
+    @Override
+    protected void onStart() {
+        super.onStart();
+       // Log.d("JaguarController", "onStart START ROSCORE SERVICE");
+        setResult(RESULT_OK, createNewMasterIntent(false));
+        finish();
+    }
+
+    public void onClickStartButton(View v){
         Log.d("JaguarController", "START ROSCORE SERVICE");
         setResult(RESULT_OK, createNewMasterIntent(false));
         finish();
